@@ -1,36 +1,114 @@
-= MPA : PrÃ©sentation finale de recette MPAstaff
-:Author:  DUT/INFO/M3301
-:lang: fr
-:slideshowlocation: Your computer
+= Projet Projet OPTI Sprint 1b
+:Author:  Groupe 1A2
+:doctitle: MPA 
+:slideshowlocation: IUT INFO S3 Blagnac
 :copyright: {date={localdate}}, {slideshowlocation} *** {author} *** Powered by AsciiDoc and W3C Slidy &#169; 
-:duration: 30
-:incremental: 1
+:revnumber: 1
 
-== Premier transparent
+== Introduction
+=== Project members
+- Arola Sébastien
+- Palhière Aymeric
+- Retornard Vianney
+- Vermande Mathieu
+- Vidal Ghislain
 
-A vous ...
+== Project's functionnal results
 
--  item 1
--  item 2
--  item 3
+[width="80%",cols="10,^2",options="header"]
+|=========================================================
+|Features | Available
 
-NOTE: On compte en moyenne 3mn par transparent
+|Afficher un onglet de crédits |YES
 
-== Second transparent
+|Créer/Supprimer/Modifier un sujet |YES
 
-image:./images/diag0.png[]
+|Lister les sujets avec filtres |YES
 
-NOTE: Plus que 8 slides
+|Définir des groupes d'étudiants |YES
+
+|Associer des étudiants à des groupes |YES
+
+|Créer/Supprimer/Modifier un intervenant |YES
+
+|Créer/Supprimer/Modifier un etudiant |YES
+
+|Définir les voeux d’un groupe |NO
+
+|Définir (affectation) un sujet pour un groupe |NO
+
+|Lister le nombre de voeux par rang pour un sujet |NO
+
+|Lister pour un groupe le nombre de "concurrents" par rang de voeux |NO
+
+|Lister les sujets affectés / non affectés |NO
+
+|Lister les groupes affectés / non affectés |NO
+
+|Calcul automatique de pré-affectation "au mieux" sur un ensemble de groupes non affectés |NO
+
+|Définir les intervenants d’un projet tutoré |NO
+
+|Lister les projets par intervenant |NO
+
+|Lister les intervenants par projet |NO
+
+|=========================================================
+
+== Project's financial results
+
+Minimal cost of a feature : 50 €
+Maximal cost of a feature : 200 €
+Cost list :
+[width="80%",cols="10,^2",options="header"]
+|=========================================================
+|Features | Available
+
+|Afficher un onglet de crédits |50
+
+|Créer/Supprimer/Modifier un sujet |90
+
+|Lister les sujets avec filtres |50
+
+|Définir des groupes d'étudiants |90
+
+|Associer des étudiants à des groupes |90
+
+|Créer/Supprimer/Modifier un intervenant |90
+
+|Créer/Supprimer/Modifier un etudiant |90
+
+Total : 550
 
 
-== TroisiÃ¨me transparent
+== Project's technical results 
 
-.HelloMonde.java
-----
-include::../src/HelloMonde.java[]
-----
+We learn how to use git and svn in a better way than before. As we did in previous projects, we used Java, asciidoc, redmine.
+Depsite the fact that we knew every software and language we used, we still met numbers of problems, with for instance :
+	- A member of our group couldn't access the repository
+	- Especially at the beginning of the production, we created many conflicts when we updated and committed the project on svn
+	- Our make.bat didn't work on the teacher's computer for an unknown reason
+	- We were too confident with our skills, thinking (at the beginning) that the project was easier than it really was
 
-== Perspectives
 
-image:./images/sieste.png[]
+== Project's human results
+	
+For the whole time we spent working on the project, we tried to manage our to do list so that at the end of each sprint, we would have finished our list of tasks.
+We worked alone or in groups of 2 on different features to work efficiently, and get the job done as fast as possible.
+However, we ended up falling behind our expectations : we haven't been able to create all the features we were supposed to.
+We realized that we haven't been working fast enough, for several reasons :
+	- we didn't used our skills in the best way : sometimes, members who were done with their assignements had nothing to do, thus wasting work time
+	- during the production of our application, we decided that a refactoring of our code was mandatory, which took us several hours
+	- we realized the overwhelming number of features we had to create too late, making the creation of all features almost impossible
+	- even though we were late, we kept working on old sprints during the last sessions, which made the delay we were experiencing even bigger
+	- we tried to work on different classes of the program at the same time, but had trouble sticking to the classes we were supposed to work on, making checkouts harder and creating conflicts 
+	- at the end of sprint 3, we thought we still had sprint 4 and 5 to finish the application. When we were told that we would have other assignements during those last sprints, we thought we had no choice but to split the group : one part worked on the current sprint, while the other worked on the application.
+	
+On the good side, the communication between teammates was pretty good.
+It also gave us a good idea on how we would react to groupwork in a professional environment; this was a good preparation to the PJT course.
 
+== Project's global results
+
+On the technical side, we agreed to say that this project wasn't successful. On the human side, however, we learnt a great deal about managing a project and meeting deadlines.
+We began being late after our refactoring, but realized we weren't going to finish the project in time too late. Moreover, we spent too much time on each feature.
+We now know that at the very beginning of the project, we have to plan according to the time we have to program the application, or the number of sprints.
